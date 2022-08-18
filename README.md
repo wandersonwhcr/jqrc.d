@@ -2,7 +2,15 @@
 
 My jq Run Commands Directory
 
+## Install
+
+```
+git clone git@github.com:wandersonwhcr/jqrc.d ~/.jqrc.d
+ln --symbolic ~/.jqrc.d/main.jq ~/.jq
+```
+
 ## CamelCase to snake\_case
+
 ```console
 $ echo '"JohnDoe"' | jq 'camel_to_snake'
 "john_doe"
